@@ -1,18 +1,21 @@
 #pragma once
-class Button
-{
+class Button {
 private:
 	sf::Text text;
 	sf::Font font;
 	sf::RectangleShape shape;
+	sf::Color color = sf::Color::Green;
+	bool flagDefColor = true;
 public:
 	Button(sf::Vector2f size);
-	void setString(std::string);
 	void setFillColor(sf::Color color);
 	void setOutlineColor(sf::Color color);
 	void setOutlineThickness(int size);
 	void setPosition(sf::Vector2f position);
+	void setString(std::string str);
+	sf::Vector2f getPos();
+	sf::Color getOutlineColor();
+	sf::Color getColor();
+	std::string getText();
 	void draw(sf::RenderWindow& window);
-	sf::Vector2f workMousePosition();
 };
-

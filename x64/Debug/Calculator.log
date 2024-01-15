@@ -1,0 +1,9 @@
+﻿  Calc.cpp
+C:\Users\Взрослая академия\source\repos\calc\Config.h(4,62): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\Users\Взрослая академия\source\repos\calc\Config.h(4,39): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\Users\Взрослая академия\source\repos\calc\Calc.cpp(89,21): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  Calculator.vcxproj -> C:\Users\Взрослая академия\Source\Repos\calc\x64\Debug\Calculator.exe

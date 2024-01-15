@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	Calculator calculator;
-	calculator.Run();
-	return 0;
+    Calculator calculator;
+    calculator.Run();
+    return 0;
 }
